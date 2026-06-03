@@ -1,7 +1,7 @@
 {
   "zm_zod": {
     "type": "itemgrid",
-    "rows": [["KeyItem2", "KeyItem2"], ["KeyItem3"], ["KeyItem2"]],
+    "rows": [["KeyItem2", "KeyItem2"], ["KeyItem3"], ["testItem7"]],
     "background": "#0000ff"
   }
 }
