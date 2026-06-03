@@ -1,23 +1,38 @@
 {
   "global": {
-    "type": "group",
-    "header": "Maps",
-    "content": {
-      "type": "itemgrid",
-      "rows": [
-        [
-          "item_zm_zod",
-          "item_zm_factory",
-          "item_zm_castle",
-          "item_zm_island",
-          "item_zm_stalingrad",
-          "item_zm_genesis"
-        ],
-        ["item_zm_theater", "item_zm_moon", "item_zm_tomb"],
-        ["item_zod"]
-      ],
-      "background": "#00ff00",
-      "h_alignment": "left"
-    }
+    "type": "dock",
+    "content": [
+      {
+        "type": "group",
+        "header": "Maps",
+        "content": {
+          "type": "itemgrid",
+          "rows": [
+            [
+              "item_zm_zod",
+              "item_zm_factory",
+              "item_zm_castle",
+              "item_zm_island",
+              "item_zm_stalingrad",
+              "item_zm_genesis"
+            ],
+            ["item_zm_theater", "item_zm_moon", "item_zm_tomb"],
+            ["item_zod"]
+          ],
+          "background": "#00ff00",
+          "h_alignment": "left"
+        }
+      },
+      {
+        "type": "group",
+        "header": "Perks",
+        "content": {
+          "type": "itemgrid",
+          "rows": [
+            ["item_global_perk_juggernog", "item_global_perk_speed_cola"]
+          ]
+        }
+      }
+    ]
   }
 }

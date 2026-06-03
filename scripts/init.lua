@@ -1,5 +1,5 @@
 -- Add each level's dir here
-dirs = {'global', 'zm_zod'}
+local dirs = {'global', 'zm_zod'}
 
 
 -- Load each level's stuff
