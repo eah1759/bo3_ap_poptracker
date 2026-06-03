@@ -1,0 +1,23 @@
+{
+  "tracker_default": {
+    "type": "tabbed",
+    "tabs": [
+      {
+        "title": "global",
+        "content": {
+          "type": "layout",
+          "key": "global",
+          "background": "#ff0000"
+        }
+      },
+      {
+        "title": "Shadows of Evil",
+        "content": {
+          "type": "layout",
+          "key": "zm_zod",
+          "background": "#00ffff"
+        }
+      }
+    ]
+  }
+}

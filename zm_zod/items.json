@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Test2",
+    "type": "static",
+    "codes": "KeyItem2",
+    "img": "images/test.png"
+  },
+  {
+    "name": "Test3",
+    "type": "static",
+    "codes": "KeyItem3",
+    "img": "images/test.png"
+  }
+]

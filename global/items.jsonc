@@ -1,0 +1,65 @@
+[
+  //* Base Maps
+  {
+    "name": "Map Unlock - Shadows of Evil",
+    "type": "toggle",
+    "codes": "item_zm_zod",
+    "img": "images/test.png"
+  },
+  {
+    "name": "Map Unlock - The Giant",
+    "type": "toggle",
+    "codes": "item_zm_factory",
+    "img": "images/test.png"
+  },
+  {
+    "name": "Map Unlock - Der Eisendrache",
+    "type": "toggle",
+    "codes": "item_zm_castle",
+    "img": "images/test.png"
+  },
+  {
+    "name": "Map Unlock - Zetsubou No Shima",
+    "type": "toggle",
+    "codes": "item_zm_island",
+    "img": "images/test.png"
+  },
+  {
+    "name": "Map Unlock - Gorod Krovi",
+    "type": "toggle",
+    "codes": "item_zm_stalingrad",
+    "img": "images/test.png"
+  },
+  {
+    "name": "Map Unlock - Revelations",
+    "type": "toggle",
+    "codes": "item_zm_genesis",
+    "img": "images/test.png"
+  },
+  //* Chronicles Maps
+  {
+    "name": "Map Unlock - Kino der Toten",
+    "type": "toggle",
+    "codes": "item_zm_theater",
+    "img": "images/test.png"
+  },
+  {
+    "name": "Map Unlock - Moon",
+    "type": "toggle",
+    "codes": "item_zm_moon",
+    "img": "images/test.png"
+  },
+  {
+    "name": "Map Unlock - Origins",
+    "type": "toggle",
+    "codes": "item_zm_tomb",
+    "img": "images/test.png"
+  },
+  //* Custom Maps
+  {
+    "name": "Map Unlock - Wanted",
+    "type": "toggle",
+    "codes": "item_zod",
+    "img": "images/test.png"
+  }
+]
