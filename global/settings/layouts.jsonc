@@ -1,0 +1,16 @@
+{
+  "settings_popup": {
+    "type": "array",
+    "orientation": "horizontal",
+    "margin": "0,25",
+    "content": [
+      {
+        "type": "itemgrid",
+        "item_margin": "2,-25",
+        "h_alignment": "left",
+        "item_size": "400,95",
+        "rows": [["", "settings_starting_perk_slots", ""]]
+      }
+    ]
+  }
+}

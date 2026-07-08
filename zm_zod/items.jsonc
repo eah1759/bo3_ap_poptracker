@@ -1,0 +1,158 @@
+[
+  /**************************
+   * PERKS
+   **************************/
+  {
+    "name": "Juggernog",
+    "type": "toggle",
+    "codes": "zm_zod_perk_juggernog",
+    "img": "zm_zod/images/zm_zod_jugg.png"
+  },
+  {
+    "name": "Quick Revive",
+    "type": "toggle",
+    "codes": "zm_zod_perk_quickrevive",
+    "img": "zm_zod/images/zm_zod_quickrevive.png"
+  },
+  {
+    "name": "Speed Cola",
+    "type": "toggle",
+    "codes": "zm_zod_perk_speedcola",
+    "img": "zm_zod/images/zm_zod_speedcola.png"
+  },
+  {
+    "name": "Double Tap",
+    "type": "toggle",
+    "codes": "zm_zod_perk_doubletap",
+    "img": "zm_zod/images/zm_zod_doubletap.png"
+  },
+  {
+    "name": "Stamin-Up",
+    "type": "toggle",
+    "codes": "zm_zod_perk_staminup",
+    "img": "zm_zod/images/zm_zod_staminup.png"
+  },
+  {
+    "name": "Mule Kick",
+    "type": "toggle",
+    "codes": "zm_zod_perk_mulekick",
+    "img": "zm_zod/images/zm_zod_mulekick.png"
+  },
+  {
+    "name": "Widow's Wine",
+    "type": "toggle",
+    "codes": "zm_zod_perk_widowswine",
+    "img": "zm_zod/images/zm_zod_widowswine.png"
+  },
+  /**************************
+   * CRAFTABLES
+   **************************/
+  // Shield
+  {
+    "name": "Shield Part - Door",
+    "type": "toggle",
+    "codes": "zm_zod_shield_door",
+    "img": "zm_zod/images/zm_zod_shield_door.png"
+  },
+  {
+    "name": "Shield Part - Dolly",
+    "type": "toggle",
+    "codes": "zm_zod_shield_dolly",
+    "img": "zm_zod/images/zm_zod_shield_dolly.png"
+  },
+  {
+    "name": "Shield Part - Clamp",
+    "type": "toggle",
+    "codes": "zm_zod_shield_clamp",
+    "img": "zm_zod/images/zm_zod_shield_clamp.png"
+  },
+  // Apothicon Servant
+  {
+    "name": "Apothicon Servant Part - Margwa Heart",
+    "type": "toggle",
+    "codes": "zm_zod_ww_heart",
+    "img": "zm_zod/images/zm_zod_ww_heart.png"
+  },
+  {
+    "name": "Apothicon Servant Part - Margwa Tentacle",
+    "type": "toggle",
+    "codes": "zm_zod_ww_tentacle",
+    "img": "zm_zod/images/zm_zod_ww_tentacle.png"
+  },
+  {
+    "name": "Apothicon Servant Part - Xenomatter",
+    "type": "toggle",
+    "codes": "zm_zod_ww_xenomatter",
+    "img": "zm_zod/images/zm_zod_ww_xenomatter.png"
+  },
+  // Fuses
+  {
+    "name": "Civil Protector Part - Waterfront Fuse",
+    "type": "toggle",
+    "codes": "zm_zod_fuse_waterfront",
+    "img": "zm_zod/images/zm_zod_fuse.png"
+  },
+  {
+    "name": "Civil Protector Part - Canals Fuse",
+    "type": "toggle",
+    "codes": "zm_zod_fuse_canals",
+    "img": "zm_zod/images/zm_zod_fuse.png"
+  },
+  {
+    "name": "Civil Protector Part - Footlight Fuse",
+    "type": "toggle",
+    "codes": "zm_zod_fuse_footlight",
+    "img": "zm_zod/images/zm_zod_fuse.png"
+  },
+  /**************************
+   * WEAPONS
+   **************************/
+  {
+    "name": "Weapon - Li'l Arnies",
+    "type": "toggle",
+    "codes": "zm_zod_weapon_octobomb",
+    "img": "images/default.png"
+  },
+  {
+    "name": "Weapon - Raygun",
+    "type": "toggle",
+    "codes": "zm_zod_weapon_ray_gun",
+    "img": "images/default.png"
+  },
+  /**************************
+   * VICTORY
+   **************************/
+  // Weapon Victory
+  {
+    "name": "Apothicon Sword Upgraded - Victory",
+    "type": "toggle",
+    "codes": "zm_zod_wv_sword",
+    "img": "images/default.png"
+  },
+  {
+    "name": "Li'l Arnies Upgraded - Victory",
+    "type": "toggle",
+    "codes": "zm_zod_wv_arnie",
+    "img": "images/default.png"
+  },
+  {
+    "name": "Doughnut Mines - Victory",
+    "type": "toggle",
+    "codes": "zm_zod_wv_mine",
+    "img": "images/default.png"
+  },
+  // Easter Egg Victory
+  {
+    "name": "Easter Egg Victory",
+    "type": "toggle",
+    "codes": "zm_zod_ee_complete",
+    "img": "images/default.png"
+  },
+  // Round Victory
+  {
+    "name": "TBD",
+    "type": "toggle",
+    "codes": "zm_zod_tbd",
+    "img": "images/default.png"
+  }
+]

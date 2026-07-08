@@ -84,6 +84,18 @@ CONSTANTS = {
             NAME = 'PhD Flopper',
             CODE = 'perk_phd_flopper'
         }
+    },
+    ROUND_LOGIC = {
+        -- Max round always in logic
+        ROUND_CAN_REACH = 6,
+        -- Max round logic cares about calculating (anything above this will be the same logic as this round)
+        ROUND_MAX_THRESHOLD = 36,
+        -- Number of rounds logic adds with each perk
+        ROUNDS_FROM_PERKS = 4,
+        -- Number of rounds from important aspects, like box weapons and pap
+        ROUNDS_FROM_IMPORTANT = 4,
+        -- Number of rounds from having a shield
+        ROUNDS_FROM_SHIELD = 4
     }
 }
 
@@ -96,7 +108,7 @@ CONSTANTS = {
 function generateStandardItem(name, iconPath, code)
     local item = ScriptHost:CreateLuaItem()
     item.Name = name
-    item.Icon = 'images/test.png' -- ! iconPath
+    item.Icon = 'images/default.png' -- ! iconPath
     item.CanProvideCodeFunc = function(luaItem, itemCode)
         if itemCode == code then return true end
         return false
@@ -109,13 +121,10 @@ end
 --- @param level string The level's code string
 --- @param perks table Array of perk names to generate
 function generatePerkItems(level, perks)
-    print(perks[1])
     for i, perk in ipairs(perks) do
-        print('a'..perk)
         local code = 'item_'..level..'_'..perk
         local iconPath = 'images/perks/'..perk..'.png'
         local name = getPerkNameFromCode(perk) or perk
-        print(code..' - '..name)
         generateStandardItem(name, iconPath, code)
     end
 end
@@ -137,6 +146,4 @@ for i, perk in pairs(CONSTANTS.PERKS) do
     print(perk.CODE)
     table.insert(perks, perk.CODE)
 end
-print('---')
-print(CONSTANTS.PERKS[1])
 generatePerkItems('global', perks)

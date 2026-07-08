@@ -1,0 +1,347 @@
+[
+  {
+    "name": "Shadows of Evil", //Area
+    "access_rules": ["item_zm_zod"], //logic rules
+    "visibility_rules": [],
+    "children": [
+      //  JUNCTION (Spawn)
+      {
+        "name": "Junction Ritual", //location
+        "access_rules": ["@zm_zod_logic/stat_round_8"], //logic rules
+        "map_locations": [
+          {
+            "map": "zm_zod_map",
+            "x": 390,
+            "y": 390
+          }
+        ],
+        "sections": [
+          {
+            "name": "(Shadows of Evil) Main Quest - Magician's Ritual"
+          },
+          {
+            "name": "(Shadows of Evil) Main Easter Egg - Find Nero's Book"
+          }
+        ]
+      },
+      {
+        "name": "Laundry Room Window",
+        "access_rules": [],
+        "map_locations": [
+          {
+            "map": "zm_zod_map",
+            "x": 375,
+            "y": 355
+          }
+        ],
+        "sections": [
+          {
+            "name": "(Shadows of Evil) Laundry Ticket"
+          }
+        ]
+      },
+      {
+        "name": "Junction",
+        "access_rules": [],
+        "map_locations": [
+          {
+            "map": "zm_zod_map",
+            "x": 344,
+            "y": 318
+          }
+        ],
+        "sections": [
+          {
+            "name": "(Shadows of Evil) Main Easter Egg - Defeat the Giant Space Squid"
+          }
+        ]
+      },
+
+      //  CANALS
+      {
+        "name": "Canals Ritual",
+        "access_rules": [],
+        "map_locations": [
+          {
+            "map": "zm_zod_map",
+            "x": 92,
+            "y": 393
+          }
+        ],
+        "sections": [
+          {
+            "name": "(Shadows of Evil) Main Quest - Detectives's Ritual"
+          }
+        ]
+      },
+      {
+        "name": "Canals Shield Part",
+        "access_rules": [],
+        "map_locations": [
+          {
+            "map": "zm_zod_map",
+            "x": 232,
+            "y": 423
+          }
+        ],
+        "sections": [
+          {
+            "name": "(Shadows of Evil) Shield Part Pickup - Dolly"
+          }
+        ]
+      },
+      {
+        "name": "Canals Fuse",
+        "access_rules": [],
+        "map_locations": [
+          {
+            "map": "zm_zod_map",
+            "x": 190,
+            "y": 453
+          }
+        ],
+        "sections": [
+          {
+            "name": "(Shadows of Evil) Civil Protector Part Pickup - Canals Fuse"
+          }
+        ]
+      },
+
+      //  FOOTLIGHT
+      {
+        "name": "Footlight Ritual",
+        "access_rules": [],
+        "map_locations": [
+          {
+            "map": "zm_zod_map",
+            "x": 278,
+            "y": 54
+          }
+        ],
+        "sections": [
+          {
+            "name": "(Shadows of Evil) Main Quest - Femme Fatale's Ritual"
+          },
+          {
+            "name": "(Shadows of Evil) Upgrade the Li'l Arnies"
+          },
+          {
+            "name": "(Shadows of Evil) Music EE - Cold Hard Cash"
+          }
+        ]
+      },
+      {
+        "name": "Footlight Shield Part",
+        "access_rules": [],
+        "map_locations": [
+          {
+            "map": "zm_zod_map",
+            "x": 263,
+            "y": 192
+          }
+        ],
+        "sections": [
+          {
+            "name": "(Shadows of Evil) Shield Part Pickup - Clamp"
+          }
+        ]
+      },
+      {
+        "name": "Footlight Fuse",
+        "access_rules": [],
+        "map_locations": [
+          {
+            "map": "zm_zod_map",
+            "x": 170,
+            "y": 160
+          }
+        ],
+        "sections": [
+          {
+            "name": "(Shadows of Evil) Civil Protector Part Pickup - Footlight Fuse"
+          }
+        ]
+      },
+
+      //  WATERFRONT
+      {
+        "name": "Waterfront Ritual",
+        "access_rules": [],
+        "map_locations": [
+          {
+            "map": "zm_zod_map",
+            "x": 600,
+            "y": 360
+          }
+        ],
+        "sections": [
+          {
+            "name": "(Shadows of Evil) Main Quest - Boxer's Ritual"
+          }
+        ]
+      },
+      {
+        "name": "Waterfront Shield Part",
+        "access_rules": [],
+        "map_locations": [
+          {
+            "map": "zm_zod_map",
+            "x": 457,
+            "y": 305
+          }
+        ],
+        "sections": [
+          {
+            "name": "(Shadows of Evil) Shield Part Pickup - Door"
+          }
+        ]
+      },
+      {
+        "name": "Waterfront Fuse",
+        "access_rules": [],
+        "map_locations": [
+          {
+            "map": "zm_zod_map",
+            "x": 549,
+            "y": 362
+          }
+        ],
+        "sections": [
+          {
+            "name": "(Shadows of Evil) Civil Protector Part Pickup - Waterfront Fuse"
+          }
+        ]
+      },
+
+      //  RIFT
+      {
+        "name": "Pack-a-Punch Ritual",
+        "access_rules": [],
+        "map_locations": [
+          {
+            "map": "zm_zod_map",
+            "x": 440,
+            "y": 120
+          }
+        ],
+        "sections": [
+          {
+            "name": "(Shadows of Evil) Main Quest - Open the Portal"
+          },
+          {
+            "name": "(Shadows of Evil) Main Easter Egg - Defeat the Shadowman"
+          }
+        ]
+      },
+      {
+        "name": "Subway",
+        "access_rules": [],
+        "map_locations": [
+          {
+            "map": "zm_zod_map",
+            "x": 538,
+            "y": 125
+          }
+        ],
+        "sections": [
+          {
+            "name": "(Shadows of Evil) Apothicon Sword - Enter the Code"
+          },
+          {
+            "name": "(Shadows of Evil) Apothicon Sword - Collect your Sword"
+          }
+        ]
+      },
+
+      //  EXTRA
+      {
+        "name": "extra",
+        "access_rules": [],
+        "map_locations": [
+          {
+            "map": "zm_zod_map",
+            "x": 0,
+            "y": 0
+          }
+        ],
+        "sections": [
+          {
+            "name": "(Shadows of Evil) All Spare Change Collected"
+          },
+          {
+            "name": "(Shadows of Evil) Unlock the Doughnut or Cream Cake Mines"
+          },
+          {
+            "name": "(Shadows of Evil) Apothicon Servant Part Pickup - Margwa Heart"
+          },
+          {
+            "name": "(Shadows of Evil) Apothicon Servant Part Pickup - Margwa Tentacle"
+          },
+          {
+            "name": "(Shadows of Evil) Apothicon Servant Part Pickup - Xenomatter"
+          },
+          {
+            "name": "(Shadows of Evil) Music EE - Snakeskin Boots"
+          },
+          {
+            "name": "(Shadows of Evil) Apothicon Sword - Collect your upgraded Sword"
+          },
+          {
+            "name": "(Shadows of Evil) Main Easter Egg - Victory"
+          },
+          {
+            "name": "(Shadows of Evil) 75 Kills"
+          },
+          {
+            "name": "(Shadows of Evil) 150 Kills"
+          },
+          {
+            "name": "(Shadows of Evil) 300 Kills"
+          },
+          {
+            "name": "(Shadows of Evil) 500 Kills"
+          },
+          {
+            "name": "(Shadows of Evil) 1000 Kills"
+          },
+          {
+            "name": "(Shadows of Evil) 25 Headshots"
+          },
+          {
+            "name": "(Shadows of Evil) 75 Headshots"
+          },
+          {
+            "name": "(Shadows of Evil) 125 Headshots"
+          },
+          {
+            "name": "(Shadows of Evil) 250 Headshots"
+          },
+          {
+            "name": "(Shadows of Evil) 400 Headshots"
+          }
+        ]
+      },
+      //TEST
+      {
+        "name": "Fuck!",
+        "chest_unopened_img": "images/default.png",
+        "chest_opened_img": "images/test.png",
+        "access_rules": [],
+        "map_locations": [
+          {
+            "shape": "trapezoid",
+            "map": "zm_zod_map2",
+            "x": 50,
+            "y": 50
+          }
+        ],
+        "sections": [
+          {
+            "name": "Test!",
+            "item_count": 3
+          }
+        ]
+      }
+    ]
+  }
+]

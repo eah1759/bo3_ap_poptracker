@@ -59,7 +59,7 @@
   {
     "name": "Map Unlock - Wanted",
     "type": "toggle",
-    "codes": "item_zod",
+    "codes": "item_zm_wanted",
     "img": "images/test.png"
   }
 ]

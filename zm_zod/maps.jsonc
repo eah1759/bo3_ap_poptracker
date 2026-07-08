@@ -1,0 +1,14 @@
+[
+  {
+    "name": "zm_zod_map",
+    "img": "zm_zod/images/zm_zod_map.png",
+    "location_size": 10,
+    "location_border_thickness": 2
+  },
+  {
+    "name": "zm_zod_map2",
+    "img": "zm_zod/images/zm_zod_map2.png",
+    "location_size": 10,
+    "location_border_thickness": 2
+  }
+]

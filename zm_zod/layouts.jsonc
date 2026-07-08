@@ -1,0 +1,98 @@
+{
+  "zm_zod": {
+    "type": "dock",
+    "v_alignment": "top",
+    "background": "#4400ff",
+    "content": [
+      //MAPS
+      {
+        "type": "dock",
+        "content": [
+          {
+            "type": "map",
+            "maps": ["zm_zod_map", "zm_zod_map2"]
+          }
+        ]
+      },
+      // ITEMS
+      {
+        "dock": "bottom",
+        "type": "group",
+        "header": "Items",
+        "background": "#40ffffff",
+        "content": {
+          "type": "array",
+          "orientation": "horizontal",
+          "content": [
+            {
+              "type": "group",
+              "header": "Perks",
+              "background": "#ffffff",
+              "content": {
+                "type": "itemgrid",
+                "rows": [
+                  [
+                    "zm_zod_perk_juggernog",
+                    "zm_zod_perk_doubletap",
+                    "zm_zod_perk_speedcola",
+                    "zm_zod_perk_quickrevive"
+                  ],
+                  [
+                    "zm_zod_perk_widowswine",
+                    "zm_zod_perk_staminup",
+                    "zm_zod_perk_mulekick"
+                  ]
+                ]
+              }
+            },
+            {
+              "type": "group",
+              "header": "Craftables",
+              "background": "#ffffff",
+              "content": {
+                "type": "itemgrid",
+                "rows": [
+                  [
+                    "zm_zod_shield_clamp",
+                    "zm_zod_shield_dolly",
+                    "zm_zod_shield_door"
+                  ],
+                  [
+                    "zm_zod_ww_heart",
+                    "zm_zod_ww_xenomatter",
+                    "zm_zod_ww_tentacle"
+                  ],
+                  [
+                    "zm_zod_fuse_canals",
+                    "zm_zod_fuse_footlight",
+                    "zm_zod_fuse_waterfront"
+                  ]
+                ]
+              }
+            },
+            {
+              "type": "group",
+              "header": "Weapons",
+              "background": "#ffffff",
+              "content": {
+                "type": "itemgrid",
+                "rows": [["zm_zod_weapon_octobomb", "zm_zod_weapon_ray_gun"]]
+              }
+            },
+            {
+              "type": "group",
+              "header": "Victory",
+              "background": "#ffffff",
+              "content": {
+                "type": "itemgrid",
+                "rows": [
+                  ["zm_zod_wv_sword", "zm_zod_wv_arnie", "zm_zod_wv_mine"]
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

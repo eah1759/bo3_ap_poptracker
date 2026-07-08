@@ -1,0 +1,34 @@
+[
+  {
+    "name": "zm_zod_logic",
+    "sections": [
+      {
+        "name": "all_locations"
+      },
+      {
+        "name": "stat_round_8",
+        "access_rules": ["$zm_zod_round_logic|8"]
+      },
+      {
+        "name": "stat_round_12",
+        "access_rules": ["$zm_zod_round_logic|12"]
+      },
+      {
+        "name": "stat_round_16",
+        "access_rules": ["$zm_zod_round_logic|16"]
+      },
+      {
+        "name": "stat_round_22",
+        "access_rules": [
+          "$zm_zod_round_logic|22, $doubletap_on_headshot|zm_zod"
+        ]
+      },
+      {
+        "name": "stat_round_30",
+        "access_rules": [
+          "$zm_zod_round_logic|30, $doubletap_on_headshot|zm_zod"
+        ]
+      }
+    ]
+  }
+]

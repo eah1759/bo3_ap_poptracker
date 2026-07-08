@@ -1,0 +1,11 @@
+[
+  {
+    "name": "Starting Perk Slots",
+    "codes": "settings_starting_perk_slots",
+    "type": "consumable",
+    "min_quantity": 1,
+    "max_quantity": 6,
+    "initial_quantity": 4,
+    "img": "images/default.png"
+  }
+]

@@ -17,7 +17,7 @@
               "item_zm_genesis"
             ],
             ["item_zm_theater", "item_zm_moon", "item_zm_tomb"],
-            ["item_zod"]
+            ["item_zm_wanted"]
           ],
           "background": "#00ff00",
           "h_alignment": "left"

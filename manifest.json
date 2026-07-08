@@ -6,7 +6,8 @@
   "author": "ipie4fun",
   "variants": {
     "standard": {
-      "display_name": "Map Tracker"
+      "display_name": "Map Tracker",
+      "flags": ["ap"]
     }
   },
   "min_poptracker_version": "0.23.1",
