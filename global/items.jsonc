@@ -61,5 +61,620 @@
     "type": "toggle",
     "codes": "item_zm_wanted",
     "img": "images/test.png"
+  },
+  //* Progressive
+  {
+    "name": "Progressive - Perk Limit Increase",
+    "codes": "item_",
+    "type": "consumable",
+    "min_quantity": 0,
+    "max_quantity": 6,
+    "initial_quantity": 0,
+    "img": "images/default.png"
+  },
+  {
+    "name": "Progressive - Pack-A-Punch Machine",
+    "codes": "item_",
+    "type": "consumable",
+    "min_quantity": 0,
+    "max_quantity": 2,
+    "initial_quantity": 0,
+    "img": "images/default.png"
+  },
+  {
+    "name": "Progressive - 500 Starting Points",
+    "codes": "item_",
+    "type": "consumable",
+    "min_quantity": 0,
+    "max_quantity": 10000,
+    "increment": 500,
+    "decrement": 500,
+    "initial_quantity": 0,
+    "img": "images/default.png"
+  },
+  //* Shop
+  {
+    "name": "Shop - Perk Token",
+    "codes": "item_",
+    "type": "consumable",
+    "min_quantity": 0,
+    "max_quantity": 10,
+    "initial_quantity": 0,
+    "img": "images/default.png"
+  },
+  {
+    "name": "Shop - Mega Gobblegum Token",
+    "codes": "item_",
+    "type": "consumable",
+    "min_quantity": 0,
+    "max_quantity": 10,
+    "initial_quantity": 0,
+    "img": "images/default.png"
+  },
+  {
+    "name": "Shop - Rare Mega Gobblegum Token",
+    "codes": "item_",
+    "type": "consumable",
+    "min_quantity": 0,
+    "max_quantity": 10,
+    "initial_quantity": 0,
+    "img": "images/default.png"
+  },
+  {
+    "name": "Shop - Legendary Mega Gobblegum Token",
+    "codes": "item_",
+    "type": "consumable",
+    "min_quantity": 0,
+    "max_quantity": 10,
+    "initial_quantity": 0,
+    "img": "images/default.png"
+  },
+  {
+    "name": "Shop - Checkpoint Token",
+    "codes": "item_",
+    "type": "consumable",
+    "min_quantity": 0,
+    "max_quantity": 6,
+    "initial_quantity": 0,
+    "img": "images/default.png"
+  },
+  //* Pistols
+  {
+    "name": "Weapon - Bloodhound",
+    "type": "toggle",
+    "codes": "item_weapon_pistol_revolver38",
+    "img": "images/default.png"
+  },
+  {
+    "name": "Weapon - MR6",
+    "type": "toggle",
+    "codes": "item_weapon_pistol_standard",
+    "img": "images/default.png"
+  },
+  {
+    "name": "Weapon - RK5",
+    "type": "toggle",
+    "codes": "item_weapon_pistol_burst",
+    "img": "images/default.png"
+  },
+  {
+    "name": "Weapon - L-CAR",
+    "type": "toggle",
+    "codes": "item_weapon_pistol_fullauto",
+    "img": "images/default.png"
+  },
+  {
+    "name": "Weapon - Rift E9",
+    "type": "toggle",
+    "codes": "item_weapon_pistol_energy",
+    "img": "images/default.png"
+  },
+  {
+    "name": "Weapon - M1911",
+    "type": "toggle",
+    "codes": "item_weapon_pistol_m1911",
+    "img": "images/default.png"
+  },
+  {
+    "name": "Weapon - Marshal 16",
+    "type": "toggle",
+    "codes": "item_weapon_pistol_shotgun_dw",
+    "img": "images/default.png"
+  },
+  {
+    "name": "Weapon - Mauser C96",
+    "type": "toggle",
+    "codes": "item_weapon_pistol_c96",
+    "img": "images/default.png"
+  },
+  //* Assault Rifles
+  {
+    "name": "Weapon - ICR-1",
+    "type": "toggle",
+    "codes": "item_weapon_ar_accurate",
+    "img": "images/default.png"
+  },
+  {
+    "name": "Weapon - HVK-30",
+    "type": "toggle",
+    "codes": "item_weapon_ar_cqb",
+    "img": "images/default.png"
+  },
+  {
+    "name": "Weapon - Man-o-War",
+    "type": "toggle",
+    "codes": "item_weapon_ar_damage",
+    "img": "images/default.png"
+  },
+  {
+    "name": "Weapon - M8A7",
+    "type": "toggle",
+    "codes": "item_weapon_ar_longburst",
+    "img": "images/default.png"
+  },
+  {
+    "name": "Weapon - Sheiva",
+    "type": "toggle",
+    "codes": "item_weapon_ar_marksman",
+    "img": "images/default.png"
+  },
+  {
+    "name": "Weapon - KN-44",
+    "type": "toggle",
+    "codes": "item_weapon_ar_standard",
+    "img": "images/default.png"
+  },
+  {
+    "name": "Weapon - FFAR",
+    "type": "toggle",
+    "codes": "item_weapon_ar_famas",
+    "img": "images/default.png"
+  },
+  {
+    "name": "Weapon - MX Garand",
+    "type": "toggle",
+    "codes": "item_weapon_ar_garand",
+    "img": "images/default.png"
+  },
+  {
+    "name": "Weapon - Peacekeeper MK2",
+    "type": "toggle",
+    "codes": "item_weapon_ar_peacekeeper",
+    "img": "images/default.png"
+  },
+  {
+    "name": "Weapon - AN-94",
+    "type": "toggle",
+    "codes": "item_weapon_ar_an94",
+    "img": "images/default.png"
+  },
+  {
+    "name": "Weapon - Galil",
+    "type": "toggle",
+    "codes": "item_weapon_ar_galil",
+    "img": "images/default.png"
+  },
+  {
+    "name": "Weapon - M14",
+    "type": "toggle",
+    "codes": "item_weapon_ar_m14",
+    "img": "images/default.png"
+  },
+  {
+    "name": "Weapon - M16",
+    "type": "toggle",
+    "codes": "item_weapon_ar_m16",
+    "img": "images/default.png"
+  },
+  {
+    "name": "Weapon - LV8 Basilisk",
+    "type": "toggle",
+    "codes": "item_weapon_ar_pulse",
+    "img": "images/default.png"
+  },
+  {
+    "name": "Weapon - XR-2",
+    "type": "toggle",
+    "codes": "item_weapon_ar_fastburst",
+    "img": "images/default.png"
+  },
+  {
+    "name": "Weapon - STG-44",
+    "type": "toggle",
+    "codes": "item_weapon_ar_stg44",
+    "img": "images/default.png"
+  },
+  //* Submachine Guns
+  {
+    "name": "Weapon - Pharo",
+    "type": "toggle",
+    "codes": "item_weapon_smg_burst",
+    "img": "images/default.png"
+  },
+  {
+    "name": "Weapon - Weevil",
+    "type": "toggle",
+    "codes": "item_weapon_smg_capacity",
+    "img": "images/default.png"
+  },
+  {
+    "name": "Weapon - Vesper",
+    "type": "toggle",
+    "codes": "item_weapon_smg_fastfire",
+    "img": "images/default.png"
+  },
+  {
+    "name": "Weapon - Kuda",
+    "type": "toggle",
+    "codes": "item_weapon_smg_standard",
+    "img": "images/default.png"
+  },
+  {
+    "name": "Weapon - VMP",
+    "type": "toggle",
+    "codes": "item_weapon_smg_versatile",
+    "img": "images/default.png"
+  },
+  {
+    "name": "Weapon - Bootlegger",
+    "type": "toggle",
+    "codes": "item_weapon_smg_sten", //Not to be confused with item_smg_sten2
+    "img": "images/default.png"
+  },
+  {
+    "name": "Weapon - HG-40",
+    "type": "toggle",
+    "codes": "item_weapon_smg_mp40", //Not to be confused with item_smg_mp40_1940
+    "img": "images/default.png"
+  },
+  {
+    "name": "Weapon - PPSH",
+    "type": "toggle",
+    "codes": "item_weapon_smg_ppsh",
+    "img": "images/default.png"
+  },
+  {
+    "name": "Weapon - M1927",
+    "type": "toggle",
+    "codes": "item_weapon_smg_thompson",
+    "img": "images/default.png"
+  },
+  {
+    "name": "Weapon - Razorback",
+    "type": "toggle",
+    "codes": "item_weapon_smg_longrange",
+    "img": "images/default.png"
+  },
+  {
+    "name": "Weapon - AK47u",
+    "type": "toggle",
+    "codes": "item_weapon_smg_ak74u",
+    "img": "images/default.png"
+  },
+  {
+    "name": "Weapon - MSMC",
+    "type": "toggle",
+    "codes": "item_weapon_smg_msmc",
+    "img": "images/default.png"
+  },
+  {
+    "name": "Weapon - Nailgun",
+    "type": "toggle",
+    "codes": "item_weapon_smg_nailgun",
+    "img": "images/default.png"
+  },
+  {
+    "name": "Weapon - HLX 4",
+    "type": "toggle",
+    "codes": "item_weapon_smg_rechamber",
+    "img": "images/default.png"
+  },
+  {
+    "name": "Weapon - Sten",
+    "type": "toggle",
+    "codes": "item_weapon_smg_sten2", //Not to be confused with item_smg_sten
+    "img": "images/default.png"
+  },
+  {
+    "name": "Weapon - MP40",
+    "type": "toggle",
+    "codes": "item_weapon_smg_mp40_1940", //Not to be confused with item_smg_mp40
+    "img": "images/default.png"
+  },
+  //* Lightmachine Guns
+  {
+    "name": "Weapon - Dingo",
+    "type": "toggle",
+    "codes": "item_weapon_lmg_cqb",
+    "img": "images/default.png"
+  },
+  {
+    "name": "Weapon - 48 Dredge",
+    "type": "toggle",
+    "codes": "item_weapon_lmg_heavy",
+    "img": "images/default.png"
+  },
+  {
+    "name": "Weapon - BRM",
+    "type": "toggle",
+    "codes": "item_weapon_lmg_light",
+    "img": "images/default.png"
+  },
+  {
+    "name": "Weapon - Gorgon",
+    "type": "toggle",
+    "codes": "item_weapon_lmg_slowfire",
+    "img": "images/default.png"
+  },
+  {
+    "name": "Weapon - R70 Ajax", //Is this even used in the game?
+    "type": "toggle",
+    "codes": "item_weapon_lmg_infinite",
+    "img": "images/default.png"
+  },
+  {
+    "name": "Weapon - RPK",
+    "type": "toggle",
+    "codes": "item_weapon_lmg_rpk",
+    "img": "images/default.png"
+  },
+  {
+    "name": "Weapon - MG08",
+    "type": "toggle",
+    "codes": "item_weapon_lmg_mg08",
+    "img": "images/default.png"
+  },
+  //* Shotguns
+  {
+    "name": "Weapon - Haymaker 12",
+    "type": "toggle",
+    "codes": "item_weapon_shotgun_fullauto",
+    "img": "images/default.png"
+  },
+  {
+    "name": "Weapon - Argus",
+    "type": "toggle",
+    "codes": "item_weapon_shotgun_precision",
+    "img": "images/default.png"
+  },
+  {
+    "name": "Weapon - KRM-262",
+    "type": "toggle",
+    "codes": "item_weapon_shotgun_pump",
+    "img": "images/default.png"
+  },
+  {
+    "name": "Weapon - 205 Brecci",
+    "type": "toggle",
+    "codes": "item_weapon_shotgun_semiauto",
+    "img": "images/default.png"
+  },
+  {
+    "name": "Weapon - Bashii",
+    "type": "toggle",
+    "codes": "item_weapon_shotgun_energy",
+    "img": "images/default.png"
+  },
+  {
+    "name": "Weapon - Olympia",
+    "type": "toggle",
+    "codes": "item_weapon_shotgun_olympia",
+    "img": "images/default.png"
+  },
+  //* Snipers
+  {
+    "name": "Weapon - Drakon",
+    "type": "toggle",
+    "codes": "item_weapon_sniper_fastsemi",
+    "img": "images/default.png"
+  },
+  {
+    "name": "Weapon - Locus",
+    "type": "toggle",
+    "codes": "item_weapon_sniper_fastbolt",
+    "img": "images/default.png"
+  },
+  {
+    "name": "Weapon - SVG-100",
+    "type": "toggle",
+    "codes": "item_weapon_sniper_powerbolt",
+    "img": "images/default.png"
+  },
+  //* Launchers
+  {
+    "name": "Weapon - XM-53",
+    "type": "toggle",
+    "codes": "item_weapon_launcher_standard",
+    "img": "images/default.png"
+  },
+  {
+    "name": "Weapon - L4 Siege",
+    "type": "toggle",
+    "codes": "item_weapon_launcher_multi",
+    "img": "images/default.png"
+  },
+  {
+    "name": "Weapon - China Lake",
+    "type": "toggle",
+    "codes": "item_weapon_launcher_ex41",
+    "img": "images/default.png"
+  },
+  //* Melee
+  {
+    "name": "Weapon - Bowie Knife",
+    "type": "toggle",
+    "codes": "item_weapon_bowie_knife",
+    "img": "images/default.png"
+  },
+  {
+    "name": "Weapon - Malice (Dagger)",
+    "type": "toggle",
+    "codes": "item_weapon_melee_dagger",
+    "img": "images/default.png"
+  },
+  {
+    "name": "Weapon - Slash n' Burn (Fire Axe)",
+    "type": "toggle",
+    "codes": "item_weapon_melee_fireaxe",
+    "img": "images/default.png"
+  },
+  {
+    "name": "Weapon - Fury's Song (Sword)",
+    "type": "toggle",
+    "codes": "item_weapon_melee_sword",
+    "img": "images/default.png"
+  },
+  {
+    "name": "Weapon - Wrench (Wrench)",
+    "type": "toggle",
+    "codes": "item_weapon_melee_wrench",
+    "img": "images/default.png"
+  },
+  {
+    "name": "Weapon - Nightbreaker (Claws)",
+    "type": "toggle",
+    "codes": "item_weapon_melee_boneglass",
+    "img": "images/default.png"
+  },
+  {
+    "name": "Weapon - Buzz Cut",
+    "type": "toggle",
+    "codes": "item_weapon_melee_improvise",
+    "img": "images/default.png"
+  },
+  {
+    "name": "Weapon - Nunchuks",
+    "type": "toggle",
+    "codes": "item_weapon_melee_nunchuks",
+    "img": "images/default.png"
+  },
+  {
+    "name": "Weapon - Skull Splitter (Mace)",
+    "type": "toggle",
+    "codes": "item_weapon_melee_mace",
+    "img": "images/default.png"
+  },
+  {
+    "name": "Weapon - Path of Sorrows (Katana)",
+    "type": "toggle",
+    "codes": "item_weapon_melee_katana",
+    "img": "images/default.png"
+  },
+  //* Other
+  {
+    "name": "Weapon - NX Shadowclaw",
+    "type": "toggle",
+    "codes": "item_weapon_special_crossbow_dw", //?????
+    "img": "images/default.png"
+  },
+  {
+    "name": "Weapon - NX Shadowclaw",
+    "type": "toggle",
+    "codes": "item_weapon_special_crossbow",
+    "img": "images/default.png"
+  },
+  {
+    "name": "Weapon - Trip Mines",
+    "type": "toggle",
+    "codes": "item_weapon_bouncingbetty",
+    "img": "images/default.png"
+  },
+  {
+    "name": "Weapon - Annihilator",
+    "type": "toggle",
+    "codes": "item_weapon_hero_annihilator",
+    "img": "images/default.png"
+  },
+  //* Wonder Weapons
+  {
+    "name": "Weapon - Raygun",
+    "type": "toggle",
+    "codes": "item_weapon_ray_gun",
+    "img": "images/default.png"
+  },
+  {
+    "name": "Weapon - Raygun Mark 2",
+    "type": "toggle",
+    "codes": "item_weapon_raygun_mark2",
+    "img": "images/default.png"
+  },
+  {
+    "name": "Weapon - Raygun Mark 3",
+    "type": "toggle",
+    "codes": "item_weapon_raygun_mark3",
+    "img": "images/default.png"
+  },
+  {
+    "name": "Weapon - Wunderwaffe DG-2",
+    "type": "toggle",
+    "codes": "item_weapon_tesla_gun",
+    "img": "images/default.png"
+  },
+  {
+    "name": "Weapon - Apothicon Servant",
+    "type": "toggle",
+    "codes": "item_weapon_idgun_genesis_0",
+    "img": "images/default.png"
+  },
+  {
+    "name": "Weapon - Apothicon Servant",
+    "type": "toggle",
+    "codes": "item_weapon_idgun_0", //??????
+    "img": "images/default.png"
+  },
+  {
+    "name": "Weapon - KT-4",
+    "type": "toggle",
+    "codes": "item_weapon_hero_mirg2000",
+    "img": "images/default.png"
+  },
+  {
+    "name": "Weapon - Thundergun",
+    "type": "toggle",
+    "codes": "item_weapon_thundergun",
+    "img": "images/default.png"
+  },
+  {
+    "name": "Weapon - Ragnarok DG-4s",
+    "type": "toggle",
+    "codes": "item_weapon_hero_gravityspikes_melee",
+    "img": "images/default.png"
+  },
+  {
+    "name": "Weapon - Monkey Bombs",
+    "type": "toggle",
+    "codes": "item_weapon_cymbal_monkey",
+    "img": "images/default.png"
+  },
+  {
+    "name": "Weapon - Li'l Arnies",
+    "type": "toggle",
+    "codes": "item_weapon_octobomb",
+    "img": "images/default.png"
+  },
+  {
+    "name": "Weapon - Quantum Entanglement Device",
+    "type": "toggle",
+    "codes": "item_weapon_quantum_bomb",
+    "img": "images/default.png"
+  },
+  {
+    "name": "Weapon - Gersh Device",
+    "type": "toggle",
+    "codes": "item_weapon_black_hole_bomb",
+    "img": "images/default.png"
+  },
+  {
+    "name": "Weapon - Wave Gun",
+    "type": "toggle",
+    "codes": "item_weapon_microwavegundw",
+    "img": "images/default.png"
+  },
+  //*
+  {
+    "name": "Item",
+    "type": "toggle",
+    "codes": "item_",
+    "img": "images/default.png"
   }
 ]
