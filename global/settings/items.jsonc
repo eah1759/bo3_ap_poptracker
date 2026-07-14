@@ -1,11 +1,149 @@
 [
+  //* Maps Enabled:
   {
-    "name": "Starting Perk Slots",
+    "name": "Map Pool - Shadows of Evil", //? Consider Renaming
+    "type": "toggle",
+    "codes": "settings_zm_zod",
+    "img": "images/default.png"
+  },
+  {
+    "name": "Map Pool - The Giant",
+    "type": "toggle",
+    "codes": "settings_zm_factory",
+    "img": "images/test.png"
+  },
+  {
+    "name": "Map Pool - Der Eisendrache",
+    "type": "toggle",
+    "codes": "settings_zm_castle",
+    "img": "images/test.png"
+  },
+  {
+    "name": "Map Pool - Zetsubou No Shima",
+    "type": "toggle",
+    "codes": "settings_zm_island",
+    "img": "images/test.png"
+  },
+  {
+    "name": "Map Pool - Gorod Krovi",
+    "type": "toggle",
+    "codes": "settings_zm_stalingrad",
+    "img": "images/test.png"
+  },
+  {
+    "name": "Map Pool - Revelations",
+    "type": "toggle",
+    "codes": "settings_zm_genesis",
+    "img": "images/test.png"
+  },
+  {
+    "name": "Map Pool - Kino der Toten",
+    "type": "toggle",
+    "codes": "settings_zm_theater",
+    "img": "images/test.png"
+  },
+  {
+    "name": "Map Pool - Moon",
+    "type": "toggle",
+    "codes": "settings_zm_moon",
+    "img": "images/test.png"
+  },
+  {
+    "name": "Map Pool - Origins",
+    "type": "toggle",
+    "codes": "settings_zm_tomb",
+    "img": "images/test.png"
+  },
+  {
+    "name": "Map Pool - Wanted",
+    "type": "toggle",
+    "codes": "settings_zm_wanted",
+    "img": "images/test.png"
+  },
+  //* Kill Checks
+  {
+    "name": "Kill Checks",
+    "type": "progressive",
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/test.png",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/default.png",
+        "codes": "settings_kill_checks",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/default.png",
+        "codes": "settings_headshot_checks",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/default.png",
+        "codes": "settings_kill_and_headshot_checks",
+        "inherit_codes": false
+      }
+    ]
+  },
+  //* Progressive
+  {
+    "name": "Starting Perk Slots", //I think the perk limit default modifier concept is confusing
     "codes": "settings_starting_perk_slots",
     "type": "consumable",
     "min_quantity": 1,
     "max_quantity": 6,
     "initial_quantity": 4,
     "img": "images/default.png"
+  },
+  {
+    "name": "Progressive Perk Limit Increase",
+    "codes": "settings_progressive_perk_limit_increase",
+    "type": "consumable",
+    "min_quantity": 0,
+    "max_quantity": 6,
+    "initial_quantity": 4,
+    "img": "images/default.png"
+  },
+  {
+    "name": "Progressive Starting Points",
+    "codes": "settings_progressive_starting_points",
+    "type": "consumable",
+    "min_quantity": 0,
+    "max_quantity": 10000,
+    "initial_quantity": 3000,
+    "increment": 500,
+    "decrement": 500,
+    "img": "images/default.png"
   }
 ]
+
+/*
+TODO:
+- Special Rounds (static)
+- Round Location Max
+- Round Location Freq
+- Kill Checks
+- Headshot Checks
+- Goal Condition
+- Goal Round (!), Goal Round Count (?)
+- Goal EE Count (?), Goal EEs (!)
+- Start Quick Revive (?) - Can I determine this via if item exists in pool?
+- Progressive Perk Limit Increase
+- Progressive Starting Perks
+- Randomize Shield Parts (?)
+- Randomized Gorod Dragon Ride (?)
+- Mystery Box Special Items (?) - Can I determine this via if item exists in pool?
+- Mystery Box Regular Items (?) - Can I determine this via if item exists in pool?
+- Mystery Box Expanded Items (?) - Can I determine this via if item exists in pool?
+- Super EE Reward
+- Map Specific Machines
+- Castle Bows (!) - Can I determine this via if item exists in pool?
+- Rev Masks (!) - Can I determine this via if item exists in pool?
+- Origins Staff Upgrades (!) - Can I determine this via if item exists in pool?
+- Easter Egg Checks Enabled
+- Music EE Enabled
+- Shop Tokens
+*/

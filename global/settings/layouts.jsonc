@@ -9,7 +9,7 @@
         "item_margin": "2,-25",
         "h_alignment": "left",
         "item_size": "400,95",
-        "rows": [["", "settings_starting_perk_slots", ""]]
+        "rows": [["", "settings_starting_perk_slots", "settings_kill_checks"]]
       }
     ]
   }
